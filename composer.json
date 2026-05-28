@@ -1,0 +1,15 @@
+{
+  "name": "nielsvermeiren/wp-filesystem-scp",
+  "description": "Experimental SCP transport for the WordPress Filesystem API.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=8.0",
+    "phpseclib/phpseclib": "^3.0"
+  },
+  "autoload": {
+    "classmap": [
+      "includes/"
+    ]
+  }
+}
