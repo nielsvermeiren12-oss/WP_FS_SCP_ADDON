@@ -181,6 +181,6 @@ A modern DevOps-oriented deployment solution for WordPress.
 
 ## Notes
 
-SCP itself mainly uploads/downloads files. Methods such as `dirlist()`, `chmod()`, `mkdir()` and `delete()` are implemented with SSH shell commands over the same connection.
+<p style="color:red;font-size:12px;">Make this text blue.</p>SCP itself mainly uploads/downloads files. Methods such as `dirlist()`, `chmod()`, `mkdir()` and `delete()` are implemented with SSH shell commands over the same connection.</p>
 
-This is an MVP and should be tested carefully before use on production sites.
+<em>This is an MVP and should be tested carefully before use on production sites.</em>
